@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="记事本设置" >
+        <EditTextPreference
+            android:defaultValue="15"
+            android:icon="@drawable/ic_launcher"
+            android:key="edit_text_key_1"
+            android:summary="15"
+            android:title="字体大小" />
+
+        <Preference
+            android:icon="@drawable/bokeyuan"
+            android:summary="http://www.cnblogs.com/labixiaoxin/"
+            android:title="机主博客" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.cnblogs.com/labixiaoxin/" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
